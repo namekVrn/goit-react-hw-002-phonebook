@@ -63,7 +63,7 @@ class Form extends Component{
                     pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
                     title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
                     required
-                    placeholder="КомментариЙ"
+                    placeholder="Комментари"
                     />    
                 <button className={css.btn} type="submit">
                 Добавить
