@@ -1,0 +1,41 @@
+.listener{
+    padding: 0;
+    width: 100%;
+}
+.listItem{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px dotted rgb(18, 199, 72);
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #00B25C;
+    color: white;
+    border-radius: 5px;
+}
+.uniqKey{
+    position: absolute;
+    right: 10px;
+    top: -6px;
+    font-size: 10px;
+}
+.contantsLink{
+    text-decoration: none;
+    color: rgb(214, 231, 118);
+    display: block;
+}
+.spam{
+   
+    display: inline-flex;
+    background-color: rgb(233, 58, 58);
+    color: white;
+    border-radius: 4px;
+    padding: 2px;
+}
+.name{
+    width: 100px;
+}

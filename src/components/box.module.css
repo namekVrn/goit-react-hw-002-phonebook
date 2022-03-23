@@ -1,0 +1,14 @@
+.box{
+    width: 560px;
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px dotted rgb(24, 143, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleTel{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
