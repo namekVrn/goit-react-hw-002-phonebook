@@ -1,5 +1,6 @@
 import react, {Component} from 'react'
 import css from '../Filter/Filter.module.css'
+console.log(react)
 class Filter extends Component{
    
     upDataFilter = (evt) =>{

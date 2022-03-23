@@ -1,7 +1,7 @@
 import react, {Component} from 'react'
 import css from '../ContactsList/ContactsList.module.css'
+console.log(react)
 class Contacts extends Component{
-    
     render(){
         return(
             <>

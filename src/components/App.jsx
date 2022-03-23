@@ -4,6 +4,7 @@ import Form from './Form'
 import ContactsList from './ContactsList'
 import Filter from './Filter'
 import css from '../components/box.module.css'
+console.log(react)
 class App extends Component{
   state = {
     contacts: [
@@ -26,7 +27,7 @@ class App extends Component{
   }
 
   formData = (dataContact) =>{ // Функция обновления state
-    const {id, name, tel, comment} = dataContact
+    const {name, tel, comment} = dataContact
     if(this.serchTel(tel)){
       alert(`${tel} такой номер уже есть в базе`)
     }else{

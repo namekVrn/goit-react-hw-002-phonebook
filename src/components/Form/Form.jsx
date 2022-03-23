@@ -1,7 +1,7 @@
 import react, {Component} from 'react';
-import { nanoid } from 'nanoid';
 import css from '../Form/Form.module.css'
 console.log(react)
+
 class Form extends Component{
     state={
         name: '',
